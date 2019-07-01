@@ -1,0 +1,35 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="192dp"
+    android:background="?attr/colorPrimaryDark"
+    android:padding="16dp"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark"
+    android:orientation="vertical"
+    android:gravity="bottom"
+    >
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/circularImageId"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_gravity="right"
+        android:src="@drawable/ic_three"
+        />
+
+
+    <ImageView
+        android:layout_width="250dp"
+        android:layout_height="75dp"
+        android:src="@drawable/logo"
+        android:id="@+id/headerImage"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/headerText"
+        android:text="Agnitio GPRS"
+        android:textSize="25sp"
+        android:textColor="@android:color/white"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"/>
+
+</LinearLayout>
